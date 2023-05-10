@@ -15,7 +15,7 @@ and [here](https://aquaticdatasciopensci.github.io)
 and [here](https://comp-expe.github.io) 
 and [here](https://enba-phd-call.github.io)
 and [here](https://strl2022.github.io).
-I'd be happy to see the site you create from my template ☺
+
 
 ## Installation
 
