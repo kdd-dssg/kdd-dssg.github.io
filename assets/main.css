@@ -133,9 +133,15 @@ img {
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
-  width: 20%;
+  width: 22%;
   padding: 3px;
 }
+
+.column-bio {
+    float: left;
+    width: 75%;
+    padding-left: 10px;
+  }
 
 /* Clear floats after image containers */
 .row::after {
@@ -143,4 +149,3 @@ img {
   clear: both;
   display: table;
 }
-
