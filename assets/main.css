@@ -149,3 +149,34 @@ img {
   clear: both;
   display: table;
 }
+
+table.schedule {
+  width: 95%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+table.schedule th, table.schedule td {
+/* border: 1px solid black; */
+padding: 8px;
+
+}
+
+table.schedule th {
+background-color: #d3d5d2;
+font-weight: bold;
+}
+
+/* Set the width of the first column to 20% */
+table.schedule th:first-child, table.schedule td:first-child {
+width: 15%;
+}
+
+/* Set the width of the second column to 80% */
+table.schedule th:last-child, table.schedule td:last-child {
+width: 85%;
+}
+
+tr.session {
+  background-color:rgba(237, 192, 95, 0.126);
+}
